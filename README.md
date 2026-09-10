@@ -2,7 +2,7 @@
 Node.js 20 demo for a GitHub workflow lab.
 
 Students practice: feature branch -> PR -> PR template -> CODEOWNERS -> protect main -> review -> merge.
-tetet 
+ 
 Run:
 `npm install`
 `npm test`
