@@ -1,8 +1,15 @@
-# Règle par défaut : ce propriétaire doit valider tout changement non couvert plus bas
+# Propriétaire par défaut pour l'ensemble du projet
 * @AdrienCpr
 
-# Propriétaire spécifique pour les workflows CI
-/.github/workflows/ @AdrienCpr
+# Code applicatif
+/src/ @AdrienCpr @Lineass
 
-# Propriétaire pour les tests
-*.test.js @AdrienCpr
+# Suite de tests
+/test/ @AdrienCpr
+
+# Configuration CI/CD et GitHub
+/.github/ @AdrienCpr
+
+# Gestion des dépendances
+package.json @AdrienCpr
+package-lock.json @AdrienCpr
