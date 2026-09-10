@@ -1,0 +1,8 @@
+# Règle par défaut : ce propriétaire doit valider tout changement non couvert plus bas
+* @AdrienCpr
+
+# Propriétaire spécifique pour les workflows CI
+/.github/workflows/ @AdrienCpr
+
+# Propriétaire pour les tests
+*.test.js @AdrienCpr
